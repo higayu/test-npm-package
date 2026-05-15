@@ -1,17 +1,17 @@
 {
-  "name": "@example/safe-npm-package",
+  "name": "@yu1107/test-npm-package",
   "version": "1.0.0",
   "description": "A safe example npm package configuration.",
   "type": "module",
   "license": "MIT",
-  "author": "Example Author",
-  "homepage": "https://github.com/example/safe-npm-package#readme",
+  "author": "higayu",
+  "homepage": "https://github.com/higayu/test-npm-package#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/example/safe-npm-package.git"
+    "url": "git+https://github.com/higayu/test-npm-package.git"
   },
   "bugs": {
-    "url": "https://github.com/example/safe-npm-package/issues"
+    "url": "https://github.com/higayu/test-npm-package/issues"
   },
   "files": [
     "dist",
@@ -50,15 +50,14 @@
     "access": "public",
     "provenance": true
   },
-  "dependencies": {},
-  "peerDependencies": {},
-  "optionalDependencies": {},
   "devDependencies": {
+    "@eslint/js": "^9.0.0",
     "@types/node": "^20.17.0",
     "eslint": "^9.0.0",
     "rimraf": "^6.0.1",
     "tsup": "^8.0.0",
     "typescript": "^5.0.0",
+    "typescript-eslint": "^8.0.0",
     "vitest": "^2.0.0"
   }
 }
