@@ -1,6 +1,6 @@
 {
   "name": "@yu1107/test-npm-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A safe example npm package configuration.",
   "type": "module",
   "license": "MIT",
